@@ -69,6 +69,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    font-size: 1.5vw;
     border: solid 1px black;
 }
 .bio--text {

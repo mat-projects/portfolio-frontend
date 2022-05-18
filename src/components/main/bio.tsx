@@ -1,6 +1,12 @@
+import profileimage from "./././images/ProfileImage.jpg";
+
+
 export default function Bio(): JSX.Element {
   return (
     <div className="bio">
+      <div className="bio--img">
+        <img src={profileimage} alt="Who is this good-looking chap?"></img>
+      </div>
       <div className="bio--text">
         <div className="bio--heading">Who are you?</div><br />
         <div className="bio--summary">
