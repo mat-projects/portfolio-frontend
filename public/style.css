@@ -139,6 +139,7 @@ html {
 .project--name {
     padding: 0% 5%;
     color: rgb(65, 80, 161);
+    font-weight: bold;
 }
 .project--link{
     padding: 0% 5%;
