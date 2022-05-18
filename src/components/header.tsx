@@ -11,7 +11,7 @@ export default function Header(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <img className="headerimg" src={linkedin} alt="LinkedIn"></img>
+            <img className="headerimg" src={linkedin} alt="LinkedIn"></img>
           </a>
           <a
             href="https://github.com/matbatten"
@@ -21,10 +21,10 @@ export default function Header(): JSX.Element {
             <img className="headerimg" src={github} alt="GitHub"></img>
           </a>
         </div>
-          <div className="headertext">
-            <div className="header--title">MAT BATTEN</div>
-            <div className="header--description">a short react portfolio</div>
-          </div>
+        <div className="headertext">
+          <div className="header--title">MAT BATTEN</div>
+          <div className="header--description">a short react portfolio</div>
+        </div>
       </div>
     </>
   );
