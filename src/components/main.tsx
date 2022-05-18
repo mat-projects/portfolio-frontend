@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { greet } from "../utils/greet";
 
 export default function Main(): JSX.Element {
