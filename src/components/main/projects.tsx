@@ -59,12 +59,8 @@ export default function Projects(): JSX.Element {
             his inspiration in an easily-accessible fashion.
             <br /> Luckily for me, there is an existing API containing a
             near-limitless fountain of wisdom.
-            <br /> This app was built as a way to practice simple API wanted to
-            focus on having a tight front-end that utilised good responsive
-            styling.
-            <br /> In futher development, I'm going to build a full back-end
-            with a SQL database of all my projects, with an HTTP request to
-            submit a new porject as a json.
+            <br /> This app was built as a way to practice simple REST API integration
+            into a tight front-end that utilised good responsive styling.
           </div>
         </div>
 
