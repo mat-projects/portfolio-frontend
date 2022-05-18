@@ -1,6 +1,10 @@
 // import { useState, useEffect } from "react";
-import { greet } from "../utils/greet";
+import Bio from "./main/bio";
 
 export default function Main(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <>
+      <Bio />
+    </>
+  );
 }
