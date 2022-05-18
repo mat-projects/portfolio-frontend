@@ -9,11 +9,11 @@ export default function Header(): JSX.Element {
           <a
             href="https://www.linkedin.com/in/mat-batten"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <img className="headerimg" src={linkedin} alt="LinkedIn"></img>
           </a>
-          <a href="https://github.com/matbatten" target="_blank" rel="noopener">
+          <a href="https://github.com/matbatten" target="_blank" rel="noopener noreferrer">
             <img className="headerimg" src={github} alt="GitHub"></img>
           </a>
         </div>
