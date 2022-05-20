@@ -63,6 +63,13 @@ html {
         align-content: center;
     }
 }
+@media screen and (min-width: 1500px) {
+    .bio {
+        width: 1500px;
+        flex-direction: row;
+        margin: 0% auto;
+    }
+}
 
 .bio--box {
     width: 50%;
@@ -88,8 +95,12 @@ html {
     }
 }
 .bio--text {
-    font-size: 1.3vw;
-    border: dotted 1px black;
+    font-size: 14pt;
+}
+@media screen and (max-width: 1500px) {
+    .bio--text {
+        font-size: 1.3vw;   
+    }
 }
 @media screen and (max-width: 1000px) {
     .bio--text {
@@ -101,6 +112,7 @@ html {
         font-size: 3.7vw;
     }
 }
+
 .bio--heading {
     background-color: rgb(223, 223, 223);
     margin-top: 5%;
