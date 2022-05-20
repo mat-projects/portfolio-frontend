@@ -1,3 +1,8 @@
+import ProjectComponent from "./projectcomponent";
+import { ProjectInterface } from "../interfaces";
+import projects from "../../projects.json"
+
+
 export default function Projects(): JSX.Element {
   return (
     <>
@@ -62,6 +67,10 @@ export default function Projects(): JSX.Element {
             <br /> This app was built as a way to practice simple REST API integration
             into a tight front-end that utilised good responsive styling.
           </div>
+        </div>
+
+        <div className="project">
+          
         </div>
 
       </div>
