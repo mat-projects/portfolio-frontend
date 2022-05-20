@@ -6,5 +6,5 @@ export interface ProjectInterface {
   projectrepo: string;
   projectstack: string;
   projectdescription: string;
-  projectimprovements: string;
+  projectimprovements?: string;
 }
