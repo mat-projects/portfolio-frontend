@@ -1,21 +1,20 @@
 [
-    {
-      "projectid": 1,
-      "projectname": "Mat's React Portfolio",
-      "projectlink": "Link? You're already here!",
-      "projectrepo": "https://github.com/matbatten/portfolio-frontend",
-      "projectstack": "TypeScript || HTML || CSS || React",
-      "projectdescription": "This was a project I brought together at the end of the taught phase of my Academy training.<br /> I wanted to combine making a portfolio with producing a genuine full-stack app and work with some other concepts that I felt I hadn't spent enough time on in the taught course.<br /> I wanted to focus on having a tight front-end that utilised good responsive styling.",
-      "projectimprovements": "In futher development, I'm going to build a full back-end with a SQL database of all my projects, with an HTTP request to submit a new porject as a json."
-    },
-    {
-      "projectid": 2,
-      "projectname": "Yeezus Inspiration",
-      "projectlink": "https://yeebible.netlify.app/",
-      "projectrepo": "https://github.com/matbatten/Yeezus",
-      "projectstack": "TypeScript || HTML || CSS || REST API || React",
-      "projectdescription": "Having accepted Ye as my Lord and Saviour, I wanted a way to find his inspiration in an easily-accessible fashion. <br /> Luckily for me, there is an existing REST API containing a near-limitless fountain of wisdom. <br /> This app was built as a way to practice simple REST API integration into a tight front-end that utilised good responsive styling.",
-      "projectimprovements": "Although further improvements will have limited benefit, I'd like to spend a short while improving the CSS to finesse the responsiveness on a widescreen monitor or mobile device."
-    }
-  ]
-  
+  {
+    "projectid": 1,
+    "projectname": "Mat's React Portfolio",
+    "projectlink": "Link? You're already here!",
+    "projectrepo": "https://github.com/matbatten/portfolio-frontend",
+    "projectstack": "TypeScript || HTML || CSS || React",
+    "projectdescription": "This was a project I brought together at the end of the taught phase of my Academy training.<br /> I wanted to combine making a portfolio with producing a genuine full-stack app and work with some other concepts that I felt I hadn't spent enough time on in the taught course.<br /> I wanted to focus on having a tight front-end that utilised good responsive styling.",
+    "projectimprovements": "In futher development, I'm going to build a full back-end with a SQL database of all my projects, with an HTTP request to submit a new porject as a json."
+  },
+  {
+    "projectid": 2,
+    "projectname": "Yeezus Inspiration",
+    "projectlink": "https://yeebible.netlify.app/",
+    "projectrepo": "https://github.com/matbatten/Yeezus",
+    "projectstack": "TypeScript || HTML || CSS || REST API || React",
+    "projectdescription": "Having accepted Ye as my Lord and Saviour, I wanted a way to find his inspiration in an easily-accessible fashion. <br /> Luckily for me, there is an existing REST API containing a near-limitless fountain of wisdom. <br /> This app was built as a way to practice simple REST API integration into a tight front-end that utilised good responsive styling.",
+    "projectimprovements": "Although further improvements will have limited benefit, I'd like to spend a short while improving the CSS to finesse the responsiveness on a widescreen monitor or mobile device."
+  }
+]
