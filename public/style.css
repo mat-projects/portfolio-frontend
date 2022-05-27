@@ -1,55 +1,80 @@
 html {
-    background-color: rgb(243, 243, 243);
-    color: rgb(45, 45, 45);
+    background-color: rgb(246, 252, 255);
+    color: rgb(25, 62, 81);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 20px 20px 0px 20px;
     justify-content: center;
 }
-.headerlogobar {
-    display: flex;
-    flex-direction: row;
+@media screen and (min-width: 1000px) {
+    .header {
+        margin: 3.5%;
+    }
 }
-.headerimg {
-    padding-right: 10px;
-    height: 5.02vw;
-}
-@media screen and (max-width: 1000px) {
+    .headerlogobar {
+        display: flex;
+        flex-direction: row;
+    }
+        .headerimg {
+            padding-right: 10px;
+            height: 15vw;
+        }
+        @media screen and (min-width: 1000px) {
+            .headerimg {
+                padding-right: 30px;
+                height: 7vw;
+            }
+        }
+
+    .headertext {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        }
+        .header--title {
+            justify-content: right;
+            font-weight: bold;
+            font-size: 8vw;
+        }
+        @media screen and (min-width: 1000px) {
+            .header--title {
+                font-size: 4vw;
+            }
+        }
+        .header--description {
+            justify-content: right;
+            font-weight: normal;
+            font-size: 5.4vw;
+        }
+        @media screen and (min-width: 1000px) {
+            .header--description {
+                font-size: 2.7vw;
+            }
+        }
+
+
+/* @media screen and (max-width: 1000px) {
     .headerimg {
         height: 50px;
         padding-right: 5px;
     }
-}
+} */
 
-.headertext {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-}
-.header--title {
-    justify-content: right;
-    font-weight: bold;
-    font-size: 3vw;
-}
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     .header--title {
         font-size: 24pt;
     }
-}
-.header--description {
-    justify-content: right;
-    font-weight: normal;
-    font-size: 2.02vw;
-}
-@media screen and (max-width: 1000px) {
+} */
+
+/* @media screen and (max-width: 1000px) {
     .header--description {
         font-size: 16.2pt;
     }
-}
+} */
 
 .bio {
     display: flex;
