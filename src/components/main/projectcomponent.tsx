@@ -9,10 +9,10 @@ function ProjectComponent(): JSX.Element {
     .then((jsonBody: ProjectInterface[]) => setProjects(jsonBody));
 
   return (
-    <div className="project">
+    <>
       {projects.map((project, id) => {
         return (
-          <div key={id}>
+          <div className="project" key={id}>
             <div className="project--header">
               <div className="project--name">{project.project_name}</div>
               <div className="project--links">
@@ -47,7 +47,7 @@ function ProjectComponent(): JSX.Element {
           </div>
         );
       })}
-    </div>
+    </>
   );
 }
 
