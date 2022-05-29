@@ -16,7 +16,7 @@ export default function Bio(): JSX.Element {
             <div className="bio--heading">Who are you?</div>
             <br />
             <div className="bio--summary">
-              I'm a recovering accountant learning to code working in Fintech.
+              A recovering accountant learning to code working in Fintech.
               <br />
               Always looking for new problems to solve (or scream quietly
               about).
