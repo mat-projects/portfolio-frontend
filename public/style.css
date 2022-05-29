@@ -42,13 +42,13 @@ html {
         }
         @media screen and (min-width: 1000px) {
             .header--title {
-                font-size: 4vw;
+                font-size: 5vw;
             }
         }
         .header--description {
             justify-content: right;
             font-weight: normal;
-            font-size: 5.4vw;
+            font-size: 4.7vw;
         }
         @media screen and (min-width: 1000px) {
             .header--description {
@@ -98,7 +98,6 @@ html {
     }
 
     .bio--text {
-        font-size: 5vw;
         text-align: justify;
     }
     @media screen and (min-width: 1000px) {
@@ -112,14 +111,14 @@ html {
             width: 100%;
             margin-top: 5%;
             padding: 2% 5%;
-            font-size: 4vw; 
+            font-size: 4.5vw; 
             text-align: left;
             font-weight: bold;
         }
         .bio--summary {
             margin-top: 1%;
             padding: 0% 5%;
-            font-size: 3vw; 
+            font-size: 3.8vw; 
             text-align: right;
         }
         .bio--list {
