@@ -1,133 +1,130 @@
 html {
-    background-color: rgb(243, 243, 243);
-    color: rgb(45, 45, 45);
+    background-color: rgb(246, 252, 255);
+    color: rgb(25, 62, 81);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 20px 20px 0px 20px;
     justify-content: center;
 }
-.headerlogobar {
-    display: flex;
-    flex-direction: row;
-}
-.headerimg {
-    padding-right: 10px;
-    height: 5.02vw;
-}
-@media screen and (max-width: 1000px) {
-    .headerimg {
-        height: 50px;
-        padding-right: 5px;
+@media screen and (min-width: 1000px) {
+    .header {
+        margin: 3.5%;
     }
 }
+    .headerlogobar {
+        display: flex;
+        flex-direction: row;
+    }
+        .headerimg {
+            padding-right: 10px;
+            height: 15vw;
+        }
+        @media screen and (min-width: 1000px) {
+            .headerimg {
+                padding-right: 30px;
+                height: 7vw;
+            }
+        }
 
-.headertext {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-}
-.header--title {
-    justify-content: right;
-    font-weight: bold;
-    font-size: 3vw;
-}
-@media screen and (max-width: 1000px) {
-    .header--title {
-        font-size: 24pt;
-    }
-}
-.header--description {
-    justify-content: right;
-    font-weight: normal;
-    font-size: 2.02vw;
-}
-@media screen and (max-width: 1000px) {
-    .header--description {
-        font-size: 16.2pt;
-    }
-}
+    .headertext {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        }
+        .header--title {
+            justify-content: right;
+            font-weight: bold;
+            font-size: 7vw;
+        }
+        @media screen and (min-width: 1000px) {
+            .header--title {
+                font-size: 4vw;
+            }
+        }
+        .header--description {
+            justify-content: right;
+            font-weight: normal;
+            font-size: 5.4vw;
+        }
+        @media screen and (min-width: 1000px) {
+            .header--description {
+                font-size: 2.7vw;
+            }
+        }
+
 
 .bio {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0px 10px;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px 20px;
 }
-@media screen and (max-width: 1000px) {
-    .bio {
-        flex-direction: column;
-        align-content: center;
+    @media screen and (min-width: 1000px) {
+        .bio {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
     }
-}
-@media screen and (min-width: 1500px) {
+/* @media screen and (min-width: 1500px) {
     .bio {
         width: 1500px;
         flex-direction: row;
         margin: 0% auto;
     }
-}
+} */
 
 .bio--box {
-    width: 50%;
-}
-@media screen and (max-width: 1000px) {
-    .bio--box {
-        width: 100%;
-    }
-}
-.bio--img {
     width: 100%;
+    margin-top: 2.5%;
+    justify-content: space-between;
 }
-@media screen and (max-width: 1000px) {
-    .bio--img {
-        margin-left: 30%;
-        width: 40%;
-        align-content: center;
+@media screen and (min-width: 1000px) {
+    .bio--box {
+         width: 50%;
     }
 }
-@media screen and (max-width: 600px) {
     .bio--img {
         display: none;
     }
-}
-.bio--text {
-    font-size: 14pt;
-}
-@media screen and (max-width: 1500px) {
-    .bio--text {
-        font-size: 1.3vw;   
+    @media screen and (min-width: 1000px) {
+        .bio--img {
+            display: block;
+            width: 100%;
+        }
     }
-}
-@media screen and (max-width: 1000px) {
-    .bio--text {
-        font-size: 2vw;
-    }
-}
-@media screen and (max-width: 600px) {
-    .bio--text {
-        font-size: 3.7vw;
-    }
-}
 
-.bio--heading {
-    background-color: rgb(223, 223, 223);
-    margin-top: 5%;
-    padding: 2% 5%;
-    text-align: left;
-    font-weight: bold;
-}
-.bio--summary {
-    margin-top: 1%;
-    padding: 0% 5%;
-    text-align: right;
-}
-.bio--list {
-    list-style-type: none
-}
+    .bio--text {
+        font-size: 5vw;
+        text-align: justify;
+    }
+    @media screen and (min-width: 1000px) {
+        .bio--text {
+            color: rgb(25, 62, 81);
+        }
+    }
+        .bio--heading {
+            background-color: rgb(208, 229, 239);
+            border-radius: 20px 0px 0px 20px;
+            width: 100%;
+            margin-top: 5%;
+            padding: 2% 5%;
+            font-size: 4vw; 
+            text-align: left;
+            font-weight: bold;
+        }
+        .bio--summary {
+            margin-top: 1%;
+            padding: 0% 5%;
+            font-size: 3vw; 
+            text-align: right;
+        }
+        .bio--list {
+            list-style-type: none
+        }
 
 .projects {
     display: flex;
