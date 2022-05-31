@@ -3,9 +3,10 @@ export default function Footer(): JSX.Element {
     <>
       <div className="footer">
         <button>
-          <a className="button" href= "mailto: acronym-peal-0c@icloud.com"> </a>
-        Contact Mat 
-        here
+          <a className="button" href="mailto: acronym-peal-0c@icloud.com">
+            {" "}
+          </a>
+          Contact Mat here
         </button>
       </div>
     </>
