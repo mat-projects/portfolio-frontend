@@ -2,7 +2,11 @@ export default function Footer(): JSX.Element {
   return (
     <>
       <div className="footer">
-        <p>Contact details at footer</p>
+        <button>
+          <a className="button" href= "mailto: acronym-peal-0c@icloud.com"> </a>
+        Contact Mat 
+        here
+        </button>
       </div>
     </>
   );

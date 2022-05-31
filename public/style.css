@@ -7,12 +7,17 @@ html {
 .header {
     display: flex;
     flex-direction: row;
-    margin: 20px 20px 0px 20px;
+    margin: 20px;
     justify-content: center;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 760px) {
     .header {
         margin: 3.5%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .header {
+        margin: 2%;
     }
 }
     .headerlogobar {
@@ -23,10 +28,16 @@ html {
             padding-right: 10px;
             height: 15vw;
         }
-        @media screen and (min-width: 1000px) {
+        @media screen and (min-width: 760px) {
             .headerimg {
                 padding-right: 30px;
-                height: 7vw;
+                height: 11vw;
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            .headerimg {
+                padding-right: 30px;
+                height: 140px;
             }
         }
 
@@ -38,23 +49,53 @@ html {
         .header--title {
             justify-content: right;
             font-weight: bold;
-            font-size: 7vw;
+            font-size: 7.5vw;
         }
-        @media screen and (min-width: 1000px) {
+        @media screen and (min-width: 760px) {
             .header--title {
-                font-size: 5vw;
+                font-size: 6vw;
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            .header--title {
+                font-size: 60pt;
             }
         }
         .header--description {
             justify-content: right;
+            padding-top: 2.5%;
             font-weight: normal;
-            font-size: 4.7vw;
+            font-size: 5vw;
         }
-        @media screen and (min-width: 1000px) {
+        @media screen and (min-width: 760px) {
             .header--description {
-                font-size: 2.7vw;
+                font-size: 4.05vw;
             }
         }
+        @media screen and (min-width: 1200px) {
+            .header--description {
+                font-size: 40.5pt;
+                padding-top: 0%;
+            }
+        }
+        .header--profile {
+            display: none;
+        }
+        @media screen and (min-width: 760px) {
+            .header--profile {
+                display: flex;
+                margin-top: 1%;
+                padding-left: 2%;
+                height: 11vw;
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            .header--profile {
+                height: 140px;
+                margin-top: 0%;
+            }
+        }
+
 
 
 .bio {
@@ -63,7 +104,7 @@ html {
     align-content: center;
     margin: 0px 20px;
 }
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 760px) {
         .bio {
             flex-direction: row;
             flex-wrap: wrap;
@@ -83,27 +124,22 @@ html {
     margin-bottom: 2.5%;
     justify-content: space-between;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 760px) {
     .bio--box {
-         width: 50%;
-    }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: rgb(25, 62, 81);
 }
-    .bio--img {
-        display: none;
-    }
-    @media screen and (min-width: 1000px) {
-        .bio--img {
-            display: block;
-            width: 100%;
-        }
-    }
+}
 
     .bio--text {
         text-align: justify;
     }
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 760px) {
         .bio--text {
-            color: rgb(25, 62, 81);
+
+            width: 70%;
         }
     }
         .bio--heading {
@@ -126,19 +162,42 @@ html {
 
 .projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
+@media screen and (min-width: 1200px) {
+    .projects{
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 2%;
+    } 
+}
     .project {
-        width: 90%;
-        margin-bottom: 10px;  
+        margin: 20px;
+    }
+    @media screen and (min-width: 760px) {
+        .project {
+            margin: 3.5%;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .project {
+            margin: 10px;
+            width: 750px;
+        }
     }
         .project--header {
             display: flex;
             flex-direction: row;
             background-color: rgb(208, 229, 239);
             border-radius: 10px 10px 0px 0px;
+        }
+        @media screen and (min-width: 1200px) {
+            .project--header {
+                border-radius: 20px 20px 0px 0px;
+                padding: 12px 0px;
+            }
         }
             .project--name {
                 margin: auto 0px;
@@ -148,6 +207,11 @@ html {
                 border-radius: 0px 10px 10px 0px;
                 font-weight: bold;
             }
+            @media screen and (min-width: 1200px) {
+                .project--name {
+                    font-size: 25pt;
+                }
+            }
             .project--linkbox {
                 margin-left: auto;
             }
@@ -155,29 +219,52 @@ html {
                     padding: 10px;
                     height: 10vw;
                 }
+                @media screen and (min-width: 1200px) {
+                    .project--img {
+                        padding: 15px;
+                        height: 4vw;
+                    }
+                }
         .project--textbox {
             display: flex;
             flex-direction: column;
             background-color: rgb(237, 244, 248);
             border-radius: 0px 0px 10px 10px;
-        }        
+        }      
+        @media screen and (min-width: 1200px) {
+            .project--textbox {
+                border-radius: 0px 0px 20px 20px;
+            }
+        }  
 
-.project--texttitle {
-    margin: 2% 0% 2% auto;
-    font-size: 3vw;
-    padding: 2% 10% 2% 4%;
-    background-color: rgb(246, 252, 255);
-    border-radius: 10px 0px 0px 10px;
-    font-weight: bold;
+            .project--texttitle {
+                margin: 2% 0% 2% auto;
+                font-size: 3vw;
+                padding: 2% 10% 2% 4%;
+                background-color: rgb(246, 252, 255);
+                border-radius: 10px 0px 0px 10px;
+                font-weight: bold;
+            }
+            @media screen and (min-width: 1200px) {
+                .project--texttitle {
+                    font-size: 20pt;
+                }
+            }
+            .project--text {
+                padding: 4%;
+                font-size: 3vw;
+            }
+            @media screen and (min-width: 1200px) {
+                .project--text {
+                    font-size: 17pt;
+                }
+            }
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
 }
-.project--text {
-    padding: 4%;
-    font-size: 3vw;
+.button {
+    background-color: azure;
 }
-
-
-
-/* footer{
-
-} */
 
