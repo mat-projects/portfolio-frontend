@@ -2,7 +2,6 @@ import { useState } from "react";
 import { ProjectInterface } from "../interfaces";
 import github from "../images/GitHub.png";
 import index from "../images/index.png";
-import { baseUrl } from "../../utils/baseURL";
 
 function ProjectComponent(): JSX.Element {
   const [projects, setProjects] = useState<ProjectInterface[]>([]);
