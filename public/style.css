@@ -42,13 +42,13 @@ html {
         }
         @media screen and (min-width: 1000px) {
             .header--title {
-                font-size: 4vw;
+                font-size: 5vw;
             }
         }
         .header--description {
             justify-content: right;
             font-weight: normal;
-            font-size: 5.4vw;
+            font-size: 4.7vw;
         }
         @media screen and (min-width: 1000px) {
             .header--description {
@@ -80,6 +80,7 @@ html {
 .bio--box {
     width: 100%;
     margin-top: 2.5%;
+    margin-bottom: 2.5%;
     justify-content: space-between;
 }
 @media screen and (min-width: 1000px) {
@@ -98,7 +99,6 @@ html {
     }
 
     .bio--text {
-        font-size: 5vw;
         text-align: justify;
     }
     @media screen and (min-width: 1000px) {
@@ -109,17 +109,15 @@ html {
         .bio--heading {
             background-color: rgb(208, 229, 239);
             border-radius: 20px 0px 0px 20px;
-            width: 100%;
+            width: 101%;
             margin-top: 5%;
-            padding: 2% 5%;
-            font-size: 4vw; 
+            padding: 2% 4%;
+            font-size: 4.5vw; 
             text-align: left;
             font-weight: bold;
         }
         .bio--summary {
-            margin-top: 1%;
-            padding: 0% 5%;
-            font-size: 3vw; 
+            font-size: 3.8vw; 
             text-align: right;
         }
         .bio--list {
@@ -132,47 +130,51 @@ html {
     flex-wrap: wrap;
     justify-content: center;
 }
-.project {
-    width: 50%;  
-    border: solid 1px black ;
-}
-.project--header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1vw;
-}
-.project--name {
-    margin: 2% 0%;
-    padding: 1% 2%;
-    background-color: rgb(223, 223, 223);
-    color: rgb(65, 80, 161);
-    border: solid 1px rgb(175, 175, 175);
-    border-radius: 30%;
+    .project {
+        width: 90%;
+        margin-bottom: 10px;  
+    }
+        .project--header {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(208, 229, 239);
+            border-radius: 10px 10px 0px 0px;
+        }
+            .project--name {
+                margin: auto 0px;
+                padding: 2% 4% 2% 4%;
+                font-size: 3vw;
+                background-color: rgb(246, 252, 255);
+                border-radius: 0px 10px 10px 0px;
+                font-weight: bold;
+            }
+            .project--linkbox {
+                margin-left: auto;
+            }
+                .project--img {
+                    padding: 10px;
+                    height: 10vw;
+                }
+        .project--textbox {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(237, 244, 248);
+            border-radius: 0px 0px 10px 10px;
+        }        
+
+.project--texttitle {
+    margin: 2% 0% 2% auto;
+    font-size: 3vw;
+    padding: 2% 10% 2% 4%;
+    background-color: rgb(246, 252, 255);
+    border-radius: 10px 0px 0px 10px;
     font-weight: bold;
 }
-.project--links{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 3%;
+.project--text {
+    padding: 4%;
+    font-size: 3vw;
 }
-.project--link{
-    color: rgb(65, 80, 161);
-}
-.project--texttitle {
-    margin: 1% 4%;
-    font-size: 1vw;
-}
-.project--desc {
-    margin: 1% 2%;
-    font-size: 0.9vw;
-}
-.project--impr {
-    margin: 1% 2%;
-    font-size: 0.9vw;
-}
+
 
 
 /* footer{
