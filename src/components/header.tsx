@@ -1,5 +1,6 @@
 import linkedin from "././images/LinkedIn.png";
 import github from "././images/GitHub.png";
+import profileimage from "././images/ProfileImage.png";
 
 export default function Header(): JSX.Element {
   return (
@@ -25,6 +26,11 @@ export default function Header(): JSX.Element {
           <div className="header--title">MAT BATTEN</div>
           <div className="header--description">a short react portfolio</div>
         </div>
+        <img
+          className="header--profile"
+          src={profileimage}
+          alt="Who is this good-looking chap?"
+        ></img>
       </div>
     </>
   );
