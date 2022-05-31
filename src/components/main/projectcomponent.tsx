@@ -18,14 +18,18 @@ function ProjectComponent(): JSX.Element {
           <div className="project" key={id}>
             <div className="project--header">
               <div className="project--name">{project.project_name}</div>
-                <div className="project--linkbox">
+              <div className="project--linkbox">
                 <a
                   className="project--links"
                   href={project.project_link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className="project--img" src={index} alt="deployed app"></img>
+                  <img
+                    className="project--img"
+                    src={index}
+                    alt="deployed app"
+                  ></img>
                 </a>
                 <a
                   className="project--links"
@@ -33,9 +37,13 @@ function ProjectComponent(): JSX.Element {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className="project--img" src={github} alt="deployed app"></img>
+                  <img
+                    className="project--img"
+                    src={github}
+                    alt="deployed app"
+                  ></img>
                 </a>
-                </div>
+              </div>
             </div>
             <div className="project--textbox">
               <div className="project--texttitle">What is this?</div>
